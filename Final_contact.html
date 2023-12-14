@@ -5,65 +5,186 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Contact</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> 
+        <style>
+          .box{
+            border: 2px solid black;
+            outline-style: solid;
+            outline-width: medium;
+            margin-top: 20.0px;
+            margin-bottom: 100.0px;
+            margin-right: 50.0px;
+            margin-left: 70.0px;
+          }
+          .column2{
+            background-color: white;
+            margin-top: 20.0px;
+            margin-bottom: 100px;
+            margin-right: 100.0px;
+            margin-left: 50.0px;
+          }
+          .connect{
+            border: 2px solid;
+            background-color: #335CA6;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            width: 600.0px;
+          }
+          .fa-linkedin{ 
+                color: white; 
+            } 
+            .fa-facebook{ 
+                color: white; 
+            } 
+            .fa-instagram{ 
+                color: white; 
+            } 
+            .fa-twitter{
+                color: white;
+            }
+        </style>
     </head>
 
 
-    <body>
+  <body>
     <!--NAV BAR-->
     <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="JAllenLogo.png" width="112" height="28">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img src="JAllenLogo.png" width="112" height="28">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+          <a class="navbar-item" href="index.html" style = "color: #00BDD6">
+              <strong>Home</strong>
           </a>
-      
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-            <a class="navbar-item" href="index.html">
-              Home
-            </a>
-      
-            <a class="navbar-item" href="Final_projectshowcase.html">
+    
+          <a class="navbar-item" href="Final_projectshowcase.html">
               Portfolio Showcase
-            </a>
+          </a>
 
-            <a class="navbar-item" href="Final_podcast.html">
-                Podcast
-            </a>
+          <a class="navbar-item" href="Final_podcast.html">
+              Podcast
+          </a>
 
-            <a class="navbar-item" href="Final_Aboutme.html">
-                About Me
-            </a>
+          <a class="navbar-item" href="Final_Aboutme.html">
+              About Me
+          </a>
 
-            <a class="navbar-item" href="Final_Reflections.html">
-                Reflections
-            </a>
+          <a class="navbar-item" href="Final_Reflections.html">
+              Reflections
+          </a>
 
-            <a class="navbar-item" href="Final_contact.html">
-                Contact
-            </a>
-        </div>
-        </div>
+          <a class="navbar-item" href="Final_contact.html">
+              Contact
+          </a>
+      </div>
+      </div>
     </nav>
-    <!--END NAV BAR-->
+  <!--END NAV BAR-->
 
-    <!--COLUMN 1-->
+    <!--PAGE BODY-->
     <div class="columns">
-      <div class="column is-narrow">
-        <div class="box" style="width: 200px;">
-          <p class="title is-5">Narrow column</p>
-          <p class="subtitle">This column is only 200px wide.</p>
+      <!--COLUMN 1-->
+      <div class="column is-narrow" style = "background-color: #D9CBF6">
+          <div class="box" style="width: 300.0px; height:900.0px;">
+            
+          </div>
+      </div>
+      <!--END OF COLUMN 1-->
+
+      <!--COLUMN 2-->
+      <div class="column">
+        <div class="column2">
+          <!--CONNECT BOXES-->
+          <p class="title" style="color:#00BDD6">
+            <strong> 
+              Let's connect!
+            </strong>
+          </p>
+          <div class="connect" style="color: white">
+            <a class="fa fa-facebook" href="https://m.facebook.com/JaNiyah.Mz.AlL3n.Allen/">  Follow me on Facebook</a>
+          </div>
+          <div class="connect" style="color:white">
+            <a  class="fa fa-instagram" href="https://www.instagram.com/janiyahallen/"> Follow me on Instagram</a>
+          </div>
+          <div class="connect" style="color: white">
+            <a  class="fa fa-linkedin" href="www.linkedin.com/in/janiyahallen"> Follow me on LinkedIn</a>
+          </div>
+          <div class="connect" style="color: white">
+            <a  class="fa fa-twitter" href="https://twitter.com/JaNiyahA_"> Follow me on Twitter</a>
+          </div>
+
+
+        
+          <!--HORIZONTAL LINE-->
+          <hr>
+          <!--END OF HORIZONTAL LINE-->
+
+          <!--MESSAGE SECTION-->
+          <p class="title" style="color:#00BDD6">
+            <strong> 
+              Talk to me.
+            </strong>
+          </p>
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Input first and last name">
+            </div>
+          </div>
+      
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" type="email" placeholder="example@domain.com" >
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope fa-sm"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+              </span>
+            </div>
+          </div>
+        
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Leave me a message"></textarea>
+            </div>
+          </div>
+        
+          <div class="field">
+            <div class="control">
+              <label class="checkbox">
+                <input type="checkbox">
+                I agree to be contacted via email provided. 
+              </label>
+            </div>
+          </div>
+        
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-primary" style="background-color: #00BDD6">
+                Submit
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-    <!--END OF COLUMN 1-->
+        <!--END OF MESSAGE SECTION-->
+      <!--END OF COLUMN 2-->
+    </div>
 
-
-    
-    </body>
+    <!--END OF PAGE BODY-->
+  </body>
 </html>
